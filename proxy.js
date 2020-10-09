@@ -14,7 +14,15 @@ http
       if (req.url == "/") {
         res.writeHead(200, headers);
         return res.end(
-          `<style>
+          `<head>   <title>
+      Proxy Unblocker
+    </title>
+    <link
+      rel="shortcut icon"
+      href="https://cdn.discordapp.com/attachments/757385216276037684/764159817924476928/a730r-se4o3-001.png"
+      type="image/x-icon"
+    />
+<style>
             html, body {
               margin: 0;
               padding: 0;
@@ -72,3 +80,4 @@ http
   .listen(1337);
 
 console.log("Proxy Running Succesfully, Great");
+
