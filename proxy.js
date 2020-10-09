@@ -58,7 +58,7 @@ http
             <script>
               function loadProxy(url){
                 url = url.replace('//', '/')
-                window.location.href = 'http://localhost:8080/proxy/' + url;
+                window.location.href = 'http://localhost:1337/proxy/' + url;
               }
             </script>
             <body>
